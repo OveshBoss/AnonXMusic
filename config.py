@@ -5,14 +5,14 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.API_ID = int(getenv("API_ID", 0))
-        self.API_HASH = getenv("API_HASH")
+        self.API_ID = int(getenv("23903140", 0))
+        self.API_HASH = getenv("579f1bcf3eac1660d81ef34b09906012")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN")
-        self.MONGO_URL = getenv("MONGO_URL")
+        self.BOT_TOKEN = getenv("8471401372:AAHgwcNuv3vQDzGeBiH1GvWsklzGQI3kj9k")
+        self.MONGO_URL = getenv("mongodb+srv://ovesh:OveshBoss@boss.340w2za.mongodb.net/?appName=Boss")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", 0))
-        self.OWNER_ID = int(getenv("OWNER_ID", 0))
+        self.LOGGER_ID = int(getenv("-1003166629808", 0))
+        self.OWNER_ID = int(getenv("1416433622", 0))
 
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60)) * 60
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20))
